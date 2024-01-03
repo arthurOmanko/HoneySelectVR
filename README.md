@@ -218,28 +218,28 @@ Settings can be changed in the file *vr_settings_for_IBL.xml*, which is generate
 
 Tag      | Default | Effect | Mode
 ----     | ------  | ------ | ----
-`<Distance>` | 1.2 | Sets the distance between the VRcamera and the GUI. | Seated
-`<OffsetY>` | -0.2 | Sets the vertical offset of the GUI in meters. | Seated
-`<Angle>` | 70 | Sets the width of the arc the GUI takes up.  | Seated
-`<Rotation>` | 0 | Sets by how many degrees the GUI is rotated (around the y / up axis) | Seated
-`<PitchLock>` | false | Whether or not can rotate on all axises (unlocked = false) | Seated
-`<Projection>` | Flat | The appearance of GUI seen. Select (Flat, Curved, Spherical) | Seated
+`<Distance>` | 1.2 | Sets the distance between the VRcamera and the GUI. [meter] | Seated
+`<OffsetY>` | -0.2 | Sets the vertical offset of the GUI. [meters] | Seated
+`<Angle>` | 70 | Sets the width of the arc the GUI takes up, Range:[50..360].  | Seated
+`<Rotation>` | 0 | On default, degrees of the GUI get rotated around the horizontal axis (y-axis), Range:[0..360] | Seated
+`<PitchLock>` | false | Whether or not rotating only around the horizontal axis (y-axis) is allowed. (all axes rotation ok = false) | Seated
+`<Projection>` | Flat | The curviness of the monitor in seated mode. Select (Flat, Curved, Spherical) | Seated
 `<IPDScale>` | 0.8 | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
-`<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality. | Seated / Standing
-`<MirrorScreen>` | false | Sets whether or not the view should be mirrored in the game window. When this true and on only mainGame, at first change Seated/Standing mode to activate by keyboard shortcut. | Seated / Standing
-`<SpeechRecognition>` | false | Whether or not speech recognition is enabled. | Seated / Standing
+`<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality. Range:[0..2 or more if possible] | Seated / Standing
+`<MirrorScreen>` | false | Sets whether or not the view should be mirrored in the game window. When this true and on StudioNeo, all ok. When this true and on mainGame/CharaMake, at first, change Seated/Standing mode to activate by keyboard shortcut [default: Ctrl-C, Ctrl-C], otherwise FPS would decrease drastically (researching the reason currently...). | Seated / Standing
+`<SpeechRecognition>` | false | Whether or not speech recognition is enabled. Refer to the manual for details. | Seated / Standing
 `<Locale>` | en-US | Locale to use for speech recognition. Make sure that you have installed the corresponding language pack. A dictionary file will automatically be generated at `UserData/dictionaries`. | Seated / Standing
 `<Rumble>` | true | Sets whether or not rumble is activated. | Seated / Standing
 `<Leap>` | true | Whether or not Leap Motion support is activated. | Standing 
-`<DefaultDistanceOfLeap>` | 0.5 | Default distance up to chara on leaping. | Standing
+`<DefaultDistanceOfLeap>` | 0.5 | Default distance up to chara on leaping. [meter] | Standing
 `<HeightCoincidenceOnLeap>` | false | On leaping up to a chara, whether the height of VRCamera matches with chara's. | Standing
 `<CursorMoveMultiplier>` | 1 | To change cursor moving speed multiplier (especially influencing the speed of object moving by MoveController). | Seated / Standing
 `<ChangeAllDefaultGUITexture>` | true | This is whether changing normal transparent GUIs into opaque GUIs because of being difficult to see normal transparent GUI on VR environment. | Seated / Standing
 `<GrabRotationImmediateMode>` | true | Determines the rotation mode. If enabled, pulling the trigger while grabbing will immediately rotate you. When disabled, doing the same thing will let you 'drag' the view. [deprecated] | Standing
-`<RotationMultiplier>` | 2.5 | Accelaration of rotation [deprecated] | Seated / Standing
-`<ApplyShaders>` | true | Sets whether or not post-processing shaders should automatically be applied to the camera. | Seated / Standing
-`<NearClip>` | 0.01 | Within this distance, seen chara gets transparent. | Seated / Standing
-`<SpeedOfMouseWheel>` | 3 | speed of mouse wheel on PlayTool | Seated / Standing
+`<RotationMultiplier>` | 2.5 | How quickly the view should rotate when doing so with the controllers. [deprecated] | Standing
+`<ApplyShaders>` | true | Sets whether or not post-processing shaders should automatically be applied to the camera. If you want high FPS not Post-Processing Effects, set false. | Seated / Standing
+`<NearClip>` | 0.01 | Within this distance, seen chara gets transparent. If too small, Camera might shake sometimes. [meter] | Seated / Standing
+`<SpeedOfMouseWheel>` | 3 | Speed of mouse wheel on PlayTool. This would influence the speed of piston changing etc. | Seated / Standing
 
 ## Building HoneySelectVR
 
