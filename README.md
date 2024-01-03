@@ -219,13 +219,13 @@ Settings can be changed in the file *vr_settings_for_IBL.xml*, which is generate
 Tag      | Default | Effect | Mode
 ----     | ------  | ------ | ----
 `<Distance>` | 1.2 | Sets the distance between the VRcamera and the GUI. [meter] | Seated
-`<OffsetY>` | -0.2 | Sets the vertical offset of the GUI. [meters] | Seated
+`<OffsetY>` | -0.2 | Sets the vertical offset of the GUI. [meter] | Seated
 `<Angle>` | 70 | Sets the width of the arc the GUI takes up, Range:[50..360].  | Seated
-`<Rotation>` | 0 | On default, degrees of the GUI get rotated around the horizontal axis (y-axis), Range:[0..360] | Seated
-`<PitchLock>` | false | Whether or not rotating only around the horizontal axis (y-axis) is allowed. (all axes rotation ok = false) | Seated
-`<Projection>` | Flat | The curviness of the monitor in seated mode. Select (Flat, Curved, Spherical) | Seated
+`<Rotation>` | 0 | On default, degrees of the GUI get rotated around the horizontal axis (y-axis), Range:[0..360]. | Seated
+`<PitchLock>` | false | Whether or not rotating only around the horizontal axis (y-axis) is allowed (all axes rotation ok = false). | Seated
+`<Projection>` | Flat | The curviness of the monitor in seated mode. Select (Flat, Curved, Spherical). | Seated
 `<IPDScale>` | 0.8 | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
-`<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality. Range:[0..2 or more if possible] | Seated / Standing
+`<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality, Range:[0..2 or more if possible]. | Seated / Standing
 `<MirrorScreen>` | false | Sets whether or not the view should be mirrored in the game window. When this true and on StudioNeo, all ok. When this true and on mainGame/CharaMake, at first, change Seated/Standing mode to activate by keyboard shortcut [default: Ctrl-C, Ctrl-C], otherwise FPS would decrease drastically (researching the reason currently...). | Seated / Standing
 `<SpeechRecognition>` | false | Whether or not speech recognition is enabled. Refer to the manual for details. | Seated / Standing
 `<Locale>` | en-US | Locale to use for speech recognition. Make sure that you have installed the corresponding language pack. A dictionary file will automatically be generated at `UserData/dictionaries`. | Seated / Standing
