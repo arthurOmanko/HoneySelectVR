@@ -244,3 +244,13 @@ Tag      | Default | Effect | Mode
 ## Especially HSIBLforVR and Lighting Settings
 Settings can be changed in the file *${GameFolder}\UserData\modprefs.ini*,
 
+Tag      | Default | Effect
+----     | ------  | ------
+`<effectTypeFilter>` | 3 | default effect type on IBLGUI. [1: LRE, 2: 4K, 3: Both]
+`<defaultCharaMakerCubemap>` | blank | default cubemap on starting CharaMaker
+`<shortcut>` | F5 | IBL GUI on/off key
+`<Window.x, y, width, height>` | --- | default position, size of IBLGUI
+`<DefaultFrontLightDefaultRotation.x, y, z>` | (0, 6, 0) | default rotation of the default directionalFrontLight (+ directionalFrontMapLight) attached at VRcamera. each Range[0..360]
+`<DefaultBackLightDefaultRotation.x, y, z>` | (0, 200, 0) | default rotation of the default directionalBackLight attached at VRcamera. each Range[0..360]
+`<AllRotationCameraSave>` | 0 | Whether all axes rotation data of VRCamera saved or not (only horizontal axis) when saving camera data on StudioNEO. [0 = only horizontal axis, 1 = all axes] 
+`<CameraFrontLightRotationToDefaultOnSceneLoad>` | 0 | On loading scene, whether making the rotation of default directional lights set at (0, 0, 0) or not (using saved lights rotation data). [0 = using saved data, 1 = set at (0, 0, 0)]
