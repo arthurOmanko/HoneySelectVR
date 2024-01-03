@@ -78,7 +78,7 @@ Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp
 :------------:  | ------
 <kbd>F5</kbd> | GUI of IBL on/off. [default shortcut. If want to change, please change the shortcut parameter on [HSIBLforVR] item in ${GameFolder}\UserData\modprefs.ini.]
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>C</kbd> | Change to Standing/Seated mode.
-<kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | Enable (very experimental) third person camera. [Was used for this video](https://www.youtube.com/watch?v=0klN6gd1ybM). If get on, this makes a Camera Box at (0, 0, 0) which User can grab and put where User hope. The display of the camera gets displayed on User's PC screen. Very interesting!
+<kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | Enable (very experimental) third person camera. [Was used for this video](https://www.youtube.com/watch?v=0klN6gd1ybM). If get on, this makes a Camera Box at (0, 0, 0) which User can grab and put where User hope. The display of the camera gets displayed on User's PC monitor. Very interesting!
 <kbd>Alt</kbd>+<kbd>S</kbd> | Save settings (IPD, screen position, etc.). Write the last saved state on ${GameFolder}\vr_settings_for_IBL.xml.
 <kbd>Alt</kbd>+<kbd>L</kbd> | Load settings (from last saved state).
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reset settings to the initial state (all default values of ${GameFolder}\vr_settings_for_IBL.xml).
@@ -226,7 +226,7 @@ Tag      | Default | Effect | Mode
 `<Projection>` | Flat | The curviness of the monitor in seated mode. Select (Flat, Curved, Spherical). | Seated
 `<IPDScale>` | 0.8 | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
 `<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality, Range:[0..2 or more if possible]. | Seated / Standing
-`<MirrorScreen>` | false | Sets whether or not the view should be mirrored on your PC monitor. When this true and on StudioNeo, all ok. When this true and on mainGame/CharaMake, at first, change Seated/Standing mode to activate by keyboard shortcut [default: Ctrl-C, Ctrl-C], otherwise FPS would decrease drastically (researching the reason currently...). | Seated / Standing
+`<MirrorScreen>` | false | Sets whether or not the view should be mirrored on User's PC monitor. When this true and on StudioNeo, all ok. When this true and on mainGame/CharaMake, at first, change Seated/Standing mode to activate by keyboard shortcut [default: Ctrl-C, Ctrl-C], otherwise FPS would decrease drastically (researching the reason currently...). | Seated / Standing
 `<SpeechRecognition>` | false | Whether or not speech recognition is enabled. Refer to the manual for details. | Seated / Standing
 `<Locale>` | en-US | Locale to use for speech recognition. Make sure that you have installed the corresponding language pack. A dictionary file will automatically be generated at `UserData/dictionaries`. | Seated / Standing
 `<Rumble>` | true | Sets whether or not rumble is activated. | Seated / Standing
