@@ -153,7 +153,8 @@ Lastly, to take control of the screen again, press the grip button once more.
 Tag      |  Move   | 
 ----     | ------  | 
 only one hand needed
-<kbd>trackpad</kbd>+<kbd>move</kbd> | move mouse cursor
+<kbd>trackpad</kbd>+<kbd>move</kbd> | move mouse cursor (when laser invisible)
+<kbd>trackpad</kbd>+<kbd>push</kbd> | click mouse cursor
 <kbd>trigger</kbd> | click mouse cursor
 <kbd>menu</kbd> | display menu
 <kbd>grip</kbd> | put GUI or grab put GUI
@@ -190,15 +191,11 @@ Tag      |  Move   |
 only one hand needed
 <kbd>menu</kbd>+<kbd>trigger</kbd> | warp in front of chara along User's line of sight
 <kbd>tigger</kbd>+<kbd>1 second</kbd> | impersonate chara along User's line of sight
-<kbd>grip</kbd>+<kbd>trackpad</kbd> | rotate around y-axis (normal)
-<kbd>grip</kbd>+<kbd>trigger</kbd> | rotata around y-axis 
-<kbd>trackpad</kbd> | warp where User wants
-<kbd>grip</kbd>+<kbd>move</kbd> | move where User wants
-<kbd>menu</kbd>+<kbd>holding</kbd> | menu on warp mode
+<kbd>trackpad</kbd> | warp where User wants (position, rotation)
+<kbd>grip</kbd>+<kbd>move</kbd> | move and rotate where User wants
+<kbd>trigger</kbd>+<kbd>grip</kbd>+<kbd>menu</kbd>+<kbd>0.5s</kbd> | All axes rotation on/off when moving
+<kbd>menu</kbd>+<kbd>holding</kbd> | display menu on warp mode
 both hands needed
-<kbd>Grip</kbd>+<kbd>Grip</kbd> | rotate around y-axis (normal)
-<kbd>Grip</kbd>+<kbd>Menu</kbd> | rotate around x-axis (added)
-<kbd>Grip</kbd>+<kbd>trigger</kbd> | rotate around z-axis (added)
 <kbd>Menu</kbd>+<kbd>UpArrow</kbd>+<kbd>trigger</kbd> <br /> <kbd>Menu</kbd>+<kbd>DownArrow</kbd>+<kbd>trigger</kbd> | decrease/increase the distance up to chara on leaping.
 
 ### Play Tool (Standing / Seated)
