@@ -1,5 +1,3 @@
-# HoneySelectVR
-
 ﻿# HoneySelect VRmod with LRE & IBL
 
 This mod is for integrating existing VirtualReality HoneySelect mod (VRmod) with Linear Rendering Experiment (LRE) and Image Based Lighting (IBL),
