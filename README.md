@@ -246,7 +246,7 @@ Settings can be changed in the file *${GameFolder}\UserData\modprefs.ini*,
 
 Tag      | Default | Effect
 ----     | ------  | ------
-`<effectTypeFilter>` | 3 | default effect type on IBLGUI. [1: LRE, 2: 4K, 3: Both]
+`<effectTypeFilter>` | 3 | default effect type on IBLGUI. [1: 4K, 2: LRE, 3: Both]
 `<defaultCharaMakerCubemap>` | blank | default cubemap on starting CharaMaker
 `<shortcut>` | F5 | IBL GUI on/off key
 `<Window.x, y, width, height>` | --- | default position, size of IBLGUI
