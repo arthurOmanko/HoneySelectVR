@@ -195,7 +195,7 @@ only one hand needed
 <kbd>grip</kbd>+<kbd>move</kbd> | move and rotate where User wants
 <kbd>trigger</kbd>+<kbd>grip</kbd>+<kbd>menu</kbd>+<kbd>0.5s</kbd> | All axes rotation on/off when moving
 <kbd>trigger</kbd>+<kbd>triple clicks</kbd> | move with seen chara during animation
-<kbd>trigger</kbd>+<kbd>double clicks</kbd> | cancell moving with chara"
+<kbd>trigger</kbd>+<kbd>double clicks</kbd> | cancell moving with chara
 <kbd>menu</kbd>+<kbd>holding</kbd> | display menu on warp mode
 both hands needed
 <kbd>Menu</kbd>+<kbd>UpArrow</kbd>+<kbd>trigger</kbd> <br /> <kbd>Menu</kbd>+<kbd>DownArrow</kbd>+<kbd>trigger</kbd> | decrease/increase the distance up to chara on leaping.
