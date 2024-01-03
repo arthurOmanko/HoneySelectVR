@@ -183,11 +183,6 @@ You can also *rotate* your play area while touching the trackpad by drawing circ
 
 ![warp](https://user-images.githubusercontent.com/68005887/89115953-49ce6700-d4c9-11ea-811b-39a77fc49fe3.jpg)  
 
-#### Changing Scale and Height
-
-It's also possible to change scale and height with this tool, although it's a bit cumbersome at the moment. To do this, hold the trackpad *pressed* before warping. You can now change your future height by moving the Vive controller up and down and your scale by moving back and forth. Note that you can only change one of those two each time.
-
-By pressing the *grip button* you can reset the scale and height.
 
 #### UI/UX abstract on Warp
 By improved UI/UX and leap functions, User can easily move where User want.  
