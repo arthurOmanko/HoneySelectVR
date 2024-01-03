@@ -241,15 +241,5 @@ Tag      | Default | Effect | Mode
 `<NearClip>` | 0.01 | Within this distance, seen chara gets transparent. If too small, Camera might shake sometimes. [meter] | Seated / Standing
 `<SpeedOfMouseWheel>` | 3 | Speed of mouse wheel on PlayTool. This would influence the speed of piston changing etc. | Seated / Standing
 
-## Building HoneySelectVR
+##
 
-HoneySelectVR depends on the [VRGIN](https://github.com/Eusth/VRGIN) library which is included as a submodule. It is therefore important that when you clone the project, you clone it recursively.
-
-```
-git clone --recursive https://github.com/Eusth/HoneySelectVR.git
-cd HoneySelectVR
-```
-
-After cloning the repo and setting up the submodule, you should be able to compile the project by simply opening the *.sln file and building.
-
-Note that there is a build configuration called "Install" that will extract your Honey Select Trial install directory from the registry and copy the files where they belong. 
