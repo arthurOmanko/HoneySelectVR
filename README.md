@@ -76,12 +76,12 @@ On both Seated and Standing Mode, same shortcuts would be used.
 
 Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          | Effect
 :------------:  | ------
-<kbd>F5</kbd> | GUI of IBL on/off. [default shortcut = F5. If want to change, please change the parameter in ${GameFolder}\UserData\modprefs.ini.]
+<kbd>F5</kbd> | GUI of IBL on/off. [default shortcut. If want to change, please change the parameter in ${GameFolder}\UserData\modprefs.ini.]
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>C</kbd> | Change to Standing/Seated mode.
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | Enable (very experimental) third person camera. [Was used for this video](https://www.youtube.com/watch?v=0klN6gd1ybM). If get on, this makes a Camera Box at (0, 0, 0) which User can grab and put where User hope. The display of the camera gets displayed on User's PC screen. Very interesting!
-<kbd>Alt</kbd>+<kbd>S</kbd> | Save settings (IPD, screen position, etc.). When Game exiting, write the saved settings on vr.
-<kbd>Alt</kbd>+<kbd>L</kbd> | Load settings (last saved state).
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reset settings to the initial state.
+<kbd>Alt</kbd>+<kbd>S</kbd> | Save settings (IPD, screen position, etc.). When game exiting, write the last saved state in ${GameFolder}\vr_settings_for_IBL.xml.
+<kbd>Alt</kbd>+<kbd>L</kbd> | Load settings (from last saved state).
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reset settings to the initial state (from ${GameFolder}\vr_settings_for_IBL.xml).
 <kbd>Ctrl</kbd>+<kbd>F5</kbd> | Apply shaders (Post-processing Effects get applied (such as SSAO, ToneMapping, Color Grading etc.))
 <kbd>Alt</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Alt</kbd>+<kbd>NumPad –</kbd> | Increase / decrease player scale
 <kbd>Ctrl</kbd>+<kbd>F12</kbd> | 360 Panorama Capture on VR. (=> ${GameFolder}\UserData\cap)
@@ -97,11 +97,11 @@ As stated earlier, the controls are basically the same as in the main game with 
 
 Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      | Effect
 :----:     | ------
-<kbd>F4</kbd> | Switch GUI projection mode (flat, curved, spherical).
-<kbd>F7</kbd> | Toggle camera lock (disabled by default). This prevents the camera to *tilt* because such movements are known to cause cyber sickness.
+<kbd>F4</kbd> | Switch GUI projection mode (Flat, Curved, Spherical).
+<kbd>F7</kbd> | Toggle camera rotation lock (only around horizontal axis) (disabled by default). This prevents the camera to *tilt* because such movements are known to cause cyber sickness.
 <kbd>F12</kbd> | Recenter
 <kbd>NumPad +</kbd> <br /> <kbd>NumPad –</kbd> | Move GUI up / down.
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>NumPad –</kbd> | Move GUI left / right
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>NumPad –</kbd> | Rotate GUI left / right
 <kbd>Ctrl</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Ctrl</kbd>+<kbd>NumPad –</kbd> | Increase / decrease GUI size.
 <kbd>Shift</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Shift</kbd>+<kbd>NumPad –</kbd> | Increase / decrease GUI distance
 <kbd>Ctrl</kbd>+<kbd>X</kbd> | Impersonate a chara Approximately along User's line of sight (not matching in regar with height)
