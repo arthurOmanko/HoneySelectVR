@@ -250,7 +250,7 @@ Tag      | Default | Effect
 `<defaultCharaMakerCubemap>` | blank | default cubemap on starting CharaMaker
 `<shortcut>` | F5 | IBL GUI on/off key
 `<Window.x, y, width, height>` | --- | default position, size of IBLGUI
-`<DefaultFrontLightDefaultRotation.x, y, z>` | (0, 6, 0) | default rotation of the default directionalFrontLight (+ directionalFrontMapLight) attached at VRcamera. each Range[0..360]
-`<DefaultBackLightDefaultRotation.x, y, z>` | (0, 200, 0) | default rotation of the default directionalBackLight attached at VRcamera. each Range[0..360]
+`<DefaultFrontLightDefaultRotation.x, y, z>` | (0, 6, 0) | default rotation of the default directionalFrontLight (+ directionalFrontMapLight) attached at VRcamera. For example, when (45, 90, 0), lights come from the 10 o'clock direction. each Range[0..360]
+`<DefaultBackLightDefaultRotation.x, y, z>` | (0, 200, 0) | default rotation of the default directionalBackLight attached at VRcamera. For example, when (45, 270, 0), light comes from the 2 o'clock direction. each Range[0..360]
 `<AllRotationCameraSave>` | 0 | Whether all axes rotation data of VRCamera saved or not (only horizontal axis) when saving camera data on StudioNEO. [0 = only horizontal axis, 1 = all axes] 
 `<CameraFrontLightRotationToDefaultOnSceneLoad>` | 0 | On loading a scene on StudioNEO, whether making the rotation of default directional front lights attached at VRCamera set at default rotation or not (using saved lights rotation data). If you always prefer default front lights rotation, use this option. [0 = using saved data, 1 = set at default rotation]
