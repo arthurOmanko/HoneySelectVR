@@ -76,7 +76,7 @@ On both Seated and Standing Mode, same shortcuts would be used.
 
 Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          | Effect
 :------------:  | ------
-<kbd>F5</kbd> | GUI of IBL on/off. [default shortcut. If want to change, please change the parameter in ${GameFolder}\UserData\modprefs.ini.]
+<kbd>F5</kbd> | GUI of IBL on/off. [default shortcut. If want to change, please change the shortcut parameter on [HSIBLforVR] item in ${GameFolder}\UserData\modprefs.ini.]
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>C</kbd> | Change to Standing/Seated mode.
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | Enable (very experimental) third person camera. [Was used for this video](https://www.youtube.com/watch?v=0klN6gd1ybM). If get on, this makes a Camera Box at (0, 0, 0) which User can grab and put where User hope. The display of the camera gets displayed on User's PC screen. Very interesting!
 <kbd>Alt</kbd>+<kbd>S</kbd> | Save settings (IPD, screen position, etc.). When game exiting, write the last saved state in ${GameFolder}\vr_settings_for_IBL.xml.
@@ -212,7 +212,7 @@ only one hand needed
 <kbd>trackpad</kbd>+<kbd>slide along y-axis</kbd> | Change piston speed, Go In/Out, etc.
 <kbd>menu</kbd> | display each fuction
 
-## Settings & Tweaks
+## VR Settings & Tweaks
 
 Settings can be changed in the file *vr_settings_for_IBL.xml*, which is generated the first time you start the game. Use `RenderScale` to tweak the resolution, **not** the internal game resolution dialog, as that one will currently only change the resolution of the GUI.
 
@@ -241,5 +241,6 @@ Tag      | Default | Effect | Mode
 `<NearClip>` | 0.01 | Within this distance, seen chara gets transparent. If too small, Camera might shake sometimes. [meter] | Seated / Standing
 `<SpeedOfMouseWheel>` | 3 | Speed of mouse wheel on PlayTool. This would influence the speed of piston changing etc. | Seated / Standing
 
-##
+## Especially HSIBLforVR and Lighting Settings
+Settings can be changed in the file *${GameFolder}\UserData\modprefs.ini*,
 
