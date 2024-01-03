@@ -87,7 +87,7 @@ Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp
 <kbd>Ctrl</kbd>+<kbd>F12</kbd> | 360 Panorama Capture on VR. (=> ${GameFolder}\UserData\cap)
 <kbd>Ctrl</kbd>+<kbd>Q</kbd> | Toggle fixing of Field of View for Camera (on IBL lens item). If want full functions of lens on IBL, unfix by toggle. 
 <kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>C</kbd> | Most GUI Default textures get changed from transparent into opaque to improve UI/UX usability. Do this when IBL GUI on.
-<kbd>Shift</kbd>+<kbd>UpArrow</kbd> <br /> <kbd>Shift</kbd>+<kbd>DownArrow</kbd> | Increse / decrease the size of Buttons on GUI. (To avoid disapperance of Buttons depending on the resolution of screen, on StudioNEO especially).
+<kbd>Shift</kbd>+<kbd>UpArrow</kbd> <br /> <kbd>Shift</kbd>+<kbd>DownArrow</kbd> | Increse / decrease the GUI resolution.
 
 ### Seated Mode
 
