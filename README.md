@@ -66,8 +66,8 @@ HoneySelectVR comes in two *modes*:
 
 | Mode        | Description         |
 | ----------- | ------------------- |
-| Seated      | *Default mode.* This mode lets you play the game with a mouse, keyboard, or gamepad.<br />The controls are essentially the same as in the main game. The screen is presented on a big monitor in front of you. |
-| Standing    | As soon as tracked controllers are registered by the game, it switches into *standing mode*, also called *room scale mode*. In this mode, you can freely move around and use your Vive or Touch controllers to stuff. |
+| Seated      | This mode lets you play the game with a mouse, keyboard, or gamepad.<br />The controls are essentially the same as in the main game. The screen is presented on a big monitor in front of you. |
+| Standing    | *Default mode.* As soon as tracked controllers are registered by the game, it switches into *standing mode*, also called *room scale mode*. In this mode, you can freely move around and use your Vive or Touch controllers to stuff. |
 
 ### Common Mode
 On both Seated and Standing Mode, same shortcuts would be used.
