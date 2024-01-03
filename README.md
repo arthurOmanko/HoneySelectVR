@@ -42,7 +42,7 @@ Thanks very much, these autors!
 - If you using other VR tools as of now except for here, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
-     + VrBoop.dll  
+     + Vrboop.dll  
      + GripMoveForHSVRStudio.dll  
      + GripMoveForHSVR.dll  
 
