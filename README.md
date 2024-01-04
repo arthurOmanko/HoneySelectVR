@@ -27,8 +27,8 @@ Thanks very much, these autors!
 3. Enjoy super high quality on VR!
 
 **Caution!** 
-- This mod might rewrite some existing files and cause some bugs depending on User's environment.
-  Please back up Game root folder before installing necessarily.
+- **This mod might rewrite some existing files and cause some bugs depending on User's environment.
+  Please back up Game root folder before installing necessarily.**
 - This mod has no internet connections at all. If User encounters any Firewall problem, it would be by original Game. All origianl codes before changing are from authors cited above and the provider has added no codes about outgoing connections. However if you see documents on web from clicking on IBL GUI, the limitation shall not be applied to.
 - This mod will often have heavy loads on CPU, memory, or GPU especially, so User might get freezed or encounter PC crashes on VR execution. 
   In the case, User can decrease the number of post-processing effects, have no effects (ApplyShaders = false), deactivate shadow of lights,
