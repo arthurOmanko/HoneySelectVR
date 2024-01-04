@@ -41,7 +41,7 @@ Thanks very much, these autors!
 - ${***_(64|32)_Data}\Managed\IllusionInjector.dll in this mod controlls this mod's LRE&IBL on VR. If User changes this DLL, on VR execution User might encounter any bugs. Use the DLL and this mod's LRE&IBL together. 
 - User had not better display any other windows except for this Game window on PC Screen. If cursor on other windows, controllers might not get reactive. Cursor-confined function on Game window is a little irregular yet.
 - GGmod DLL (for clothes with high heels) might sometimes affect IK/FK of chara with high heels attached by GGmod, so during VR environment, the look, necklock or IK/FK of the chara might sometimes get weird. Then once please take off/put on clothes (especially high heels attached by GGmod). The any weird situation of the chara would get fixed.
-- On VR environment, light shadow settings would be severe, so set default preferable values (shadowdistance etc.) of light shadows on ${GameFolder}\UserData\GraphicSetting\Shadow\arthur_Shadow.xml [default].
+- On VR environment, light shadow settings would be severe, so set preferable default values (shadowdistance etc.) of light shadows on ${GameFolder}\UserData\GraphicSetting\Shadow\arthur_Shadow.xml [default].
 - If you using other VR tools as of now except for here, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
