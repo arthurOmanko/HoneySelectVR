@@ -46,7 +46,8 @@ Thanks very much, these autors!
      + StudioNEOVR.dll  
      + Vrboop.dll  
      + GripMoveForHSVRStudio.dll  
-     + GripMoveForHSVR.dll  
+     + GripMoveForHSVR.dll
+     + other unknown VR tool dll etc...  
 
 ## [Requirements]
 - Game updated with the last patch and DLC installed
