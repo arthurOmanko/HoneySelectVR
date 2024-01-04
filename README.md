@@ -243,7 +243,7 @@ Tag      | Default | Effect | Mode
 `<NearClip>` | 0.01 | Within this distance, seen chara gets transparent. If too small, Camera might shake sometimes. [meter] | Seated / Standing
 `<SpeedOfMouseWheel>` | 3 | Speed of mouse wheel on PlayTool. This would influence the speed of piston changing etc. | Seated / Standing
 
-## Especially HSIBLforVR and Lighting Settings
+## Especially HSIBLforVR, VRCamera and Lighting Settings
 Settings can be changed in the file *${GameFolder}\UserData\modprefs.ini*,
 
 Tag      | Default | Effect
