@@ -90,7 +90,7 @@ Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>C</kbd> | Change to Standing/Seated mode.
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | Enable (very experimental) third person camera. [Was used for this video](https://www.youtube.com/watch?v=0klN6gd1ybM). If get on, this makes a Camera Box at (0, 0, 0) which User can grab and put where User hope. The display of the camera gets displayed on User's PC monitor. Very interesting!
 <kbd>Alt</kbd>+<kbd>S</kbd> | Save settings (IPD, screen position, etc.). Write the last saved state on ${GameFolder}\vr_settings_for_IBL.xml.
-<kbd>Alt</kbd>+<kbd>L</kbd> | Load settings (from last saved state).
+<kbd>Alt</kbd>+<kbd>L</kbd> | Load settings (from last saved state or ${GameFolder}\vr_settings_for_IBL.xml).
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reset settings to the initial state (all default values of ${GameFolder}\vr_settings_for_IBL.xml).
 <kbd>Ctrl</kbd>+<kbd>F5</kbd> | Apply shaders (Post-processing Effects get applied (such as SSAO, ToneMapping, Color Grading etc.))
 <kbd>Alt</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Alt</kbd>+<kbd>NumPad –</kbd> | Increase / decrease player scale (IPDScale)
