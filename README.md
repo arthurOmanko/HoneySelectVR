@@ -180,7 +180,7 @@ In order to warp, touch the trackpad, choose your position and press. While touc
 
 1. Where you will warp to
 2. Your play area
-3. A HMD that further shows where your head will be
+3. A HMD that further shows where the position and rotation of your head will be
 
 You can also *rotate* your play area while touching the trackpad by drawing circles with your thumb.
 
