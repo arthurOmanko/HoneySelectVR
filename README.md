@@ -32,7 +32,7 @@ Thanks very much, these autors!
 - This mod has no internet connections at all. If User encounters any Firewall problem, it would be by original Game. All origianl codes before changing are from authors cited above and the provider has added no codes about outgoing connections. However if you see documents on web from clicking on IBL GUI, the limitation shall not be applied to.
 - This mod will often have heavy loads on CPU, memory, or GPU especially, so User might get freezed or encounter PC crashes on VR execution. 
   In the case, User can decrease the number of post-processing effects, have no effects (ApplyShaders = false), deactivate shadow of lights,
-  decrease the number of charas or items, decrease the value of RenderScale of xml settings, or look up VR itself settings.
+  decrease the number of charas or items, decrease the value of RenderScale of xml settings, or review VR itself settings.
   Please be careful to avoid any probelm caused by the case.
 - Chara texture will get weird on Title, (enabling/disabling) self shadow, switching (seated/standing) mode, applying shader (as long as known as of now).
   The provider doesnt know about this reason very sorry. If User encounters this problem, initialize scene or chara.
