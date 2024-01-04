@@ -42,6 +42,7 @@ Thanks very much, these autors!
 - User had not better display any other windows except for this Game window on PC Screen. If cursor on other windows, controllers might not get reactive. Cursor-confined function on Game window is a little irregular yet.
 - GGmod DLL (for clothes with high heels) might sometimes affect IK/FK of chara with high heels attached by GGmod, so during VR environment, the look, necklock or IK/FK of the chara might sometimes get weird. Then once please take off/put on clothes (especially high heels attached by GGmod). The any weird situation of the chara would get fixed.
 - On VR environment, light shadow settings would be severe, so set preferable default values (shadowdistance etc.) of light shadows on ${GameFolder}\UserData\GraphicSetting\Shadow\arthur_Shadow.xml [default].
+- On starting MainGame(HScene), CharaMaker, or StudioNEO, at first you had better load any IBL preset to apply all effects and light settings, otherwise first looks of charas or some items might often keep a little weird (probably still keeping some vanilla settings).
 - If you using other VR tools as of now except for here, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
