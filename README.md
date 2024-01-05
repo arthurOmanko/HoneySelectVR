@@ -58,8 +58,8 @@ Thanks very much, these autors!
 https://joan6694.bitbucket.io/
 
 ## [Uninstall]
-It is a little difficult to remove all installed data (there are already rewrited data) but by removing some installed DLL in (${GameFolder}/Plugins/), all installed VR tools can be invalidated.  
-They are as below,  
+It is a little difficult to remove all installed data (there are already rewrited data) but by removing some installed DLL in (${GameFolder}/Plugins/), all installed VR data can be invalidated.  
+Ones to remove are as below,  
 - VRGIN.dll
 - HoneySelectVR.dll
 - HSLREforVR.dll
@@ -69,7 +69,7 @@ They are as below,
 - VRNeoIKFKTool.dll (if existing)
 - HSSSSforVR.dll (if existing)
  
-After it, if you want previous VR environment, for example, from VRmod by Eusth, install Eusth's VRmod Tool and rewrite by it. VR environment by Eusth's VRmod and then rewrited previous data can come back. 
+After it, if you want previous VR environment, for example, from VRmod by Eusth, install Eusth's VRmod Tool and rewrite some data by it. VR environment and related data by Eusth's VRmod can come back. 
 
 ## [Mod Settings]
 - VRmod:  
