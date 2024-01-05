@@ -66,6 +66,7 @@ Ones to remove are as below,
 - HSIBLforVR.dll
 - ToolBoxforVR.dll
 - VRKoumeiTool.dll (if existing)
+- VRKoumeiTool directory (if existing)
 - VRNeoIKFKTool.dll (if existing)
 - HSSSSforVR.dll (if existing)
  
