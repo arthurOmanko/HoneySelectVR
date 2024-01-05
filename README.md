@@ -68,7 +68,7 @@ They are as below,
 - VRKoumeiTool.dll (if existing)
 - VRNeoIKFKTool.dll (if existing)
 - HSSSSforVR.dll (if existing)   
-
+After it, if you want previous VR environment, for example, from VRmod by Eusth, install Eusth's VRmod Tool and rewrite by it. VR environment by Eusth's VRmod and then rewrited previous data can come back. 
 
 ## [Mod Settings]
 - VRmod:  
