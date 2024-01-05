@@ -57,6 +57,18 @@ Thanks very much, these autors!
 - HSExtSave plugin  
 https://joan6694.bitbucket.io/
 
+## [Uninstall]
+It is a little difficult to remove all installed data (there are already rewrited data) but by removing some installed DLL in (${GameFolder}/Plugins/), all installed VR tools can be invalidated.  
+They are as below,  
+- VRGIN.dll
+- HoneySelectVR.dll
+- HSLREforVR.dll
+- HSIBLforVR.dll
+- ToolBoxforVR.dll
+- VRKoumeiTool.dll (if existing)
+- VRNeoIKFKTool.dll (if existing)
+- HSSSSforVR.dll (if existing)   
+
 
 ## [Mod Settings]
 - VRmod:  
