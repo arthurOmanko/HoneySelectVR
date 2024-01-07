@@ -59,6 +59,9 @@ Thanks very much, these autors!
 - HSExtSave plugin  
 https://joan6694.bitbucket.io/
 
+## [Recommendation]
+- HSStandard.dll (option for quality)
+
 ## [Uninstall]
 It is a little difficult to remove all installed data (there are already some rewrited data) but by removing some installed DLL in (${GameFolder}/Plugins/), all installed VR data can be invalidated.  
 Ones to remove are as below,  
