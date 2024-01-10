@@ -46,7 +46,7 @@ Thanks very much, these autors!
 - On VR environment, light shadow settings would be severe, so set preferable default values (shadowdistance etc.) of light shadows on ${GameFolder}\UserData\GraphicSetting\Shadow\arthur_Shadow.xml [default].
 - On starting MainGame(HScene), CharaMaker, or StudioNEO, at first you had better load any IBL preset to apply all effects and light settings, otherwise first looks of charas or some items might often keep a little weird (probably still keeping some vanilla settings).
 - On ([ChangeAllDefaultGUITexture] = true), once turn on IBLGUI. After it, textures of all GUI will change from transparent into opaque.
-- Camera data saving on StudioNEO has been enabled for 1-10 on VR. 11 or more camera data savign not working on VR.
+- Camera data saving on StudioNEO has been enabled for 1-10 on VR. 11 or more camera data savign not working on VR currently.
 - If you using other VR tools as of now except for this github, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
