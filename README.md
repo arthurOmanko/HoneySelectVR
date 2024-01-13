@@ -1,6 +1,6 @@
 ﻿# HoneySelect VRmod with LRE & IBL
 
-**(On 2024/01/05, all VR tools have been updated. If you installed VR tools data on this github before, please try to update them.)**
+**(On 2024/01/05, all VR tools have been updated. If you installed any VR tools data on this github before, please try to update them.)**
 
 This mod is for integrating existing VirtualReality HoneySelect mod (VRmod) with Linear Rendering Experiment (LRE) and Image Based Lighting (IBL),
 and adding some improvements. All post-processing effects (from UnityStandardAssets), functions of Camera lens, Skyboxes(Cubemaps) and Lighting functions
