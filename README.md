@@ -47,6 +47,7 @@ Thanks very much, these autors!
 - On starting MainGame(HScene), CharaMaker, or StudioNEO, at first you had better load any IBL preset to apply all effects and light settings, otherwise first looks of charas or some items might often keep a little weird (probably still keeping some vanilla settings).
 - On ([ChangeAllDefaultGUITexture] = true), once turn on IBLGUI. After it, textures of all GUI will change from transparent into opaque.
 - Camera data saving on StudioNEO has been enabled for 1-10 on VR. 11 or more camera data savign not working on VR currently.
+- When there is any problem of UI buttons dispearing, please try to change UI resolution in InitSetting.exe.
 - If you using other VR tools as of now except for this github, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
