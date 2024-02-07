@@ -49,7 +49,7 @@ Thanks very much, these autors!
 - Camera data saving on StudioNEO has been enabled for 1-10 on VR. 11 or more camera data savign not working on VR currently.
 - When there is any problem of UI buttons disappearing, please try to change UI resolution in InitSetting.exe.
 - **Please try to turn off Motion Smoothing in SteamVR settings when fuzzy or shaking UI problem or animation problem happens.**
-- If you using other VR tools as of now except for this github, your game might work unproperly. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
+- If you using other VR tools as of now except for this github, your game might work unproperly or get low quality. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
      + Vrboop.dll  
