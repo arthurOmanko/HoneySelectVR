@@ -1,6 +1,7 @@
 ﻿# HoneySelect VRmod with LRE & IBL
 
-**(On 2024/01/05, all VR tools have been updated. If you installed any VR tools data on this github before, please try to update them.)**
+***(<ins>On 2024/12/21, all VR tools have been updated. If you installed any VR tools data on this github before, please try to update them.</ins>)***
+***(<ins>Updated items since previous version getting underline characters</ins>)***
 
 This mod is for integrating existing VirtualReality HoneySelect mod (VRmod) with Linear Rendering Experiment (LRE) and Image Based Lighting (IBL),
 and adding some improvements. All post-processing effects (from UnityStandardAssets), functions of Camera lens, Skyboxes(Cubemaps) and Lighting functions
@@ -49,6 +50,7 @@ Thanks very much, these autors!
 - Camera data saving on StudioNEO has been enabled for 1-10 on VR. 11 or more camera data savign not working on VR currently.
 - When there is any problem of UI buttons disappearing, please try to change UI resolution in InitSetting.exe.
 - **Please try to turn off Motion Smoothing in SteamVR settings when fuzzy or shaking UI problem or animation problem happens.**
+- ***<ins>Passthrough for Quest3 can be used on this VRmod. BackGroundColor changeable and some bugs on Quest3 fixed.</ins>***
 - If you using other VR tools as of now except for this github, your game might work unproperly or get low quality. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
@@ -254,7 +256,7 @@ Tag      | Default | Effect | Mode
 `<Rotation>` | 0 | On default, degrees of the GUI get rotated around the horizontal axis (y-axis), Range:[0..360]. | Seated
 `<PitchLock>` | false | Whether or not rotating only around the horizontal axis (y-axis) is allowed (all axes rotation ok = false). | Seated
 `<Projection>` | Flat | The curviness of the monitor in seated mode. Select (Flat, Curved, Spherical). | Seated
-`<IPDScale>` | 0.8 | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
+`<IPDScale>` | ***<ins>1.0</ins>*** | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
 `<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality, Range:[0..2 or more if possible]. | Seated / Standing
 `<MirrorScreen>` | false | Sets whether or not the view should be mirrored on User's PC monitor. When this true and on StudioNeo, all ok. When this true and on mainGame/CharaMake, at first, change Seated/Standing mode to activate by keyboard shortcut [default: Ctrl-C, Ctrl-C], otherwise FPS would decrease drastically (researching the reason currently...). | Seated / Standing
 `<SpeechRecognition>` | false | Whether or not speech recognition is enabled. Refer to the manual for details. | Seated / Standing
@@ -265,6 +267,7 @@ Tag      | Default | Effect | Mode
 `<HeightCoincidenceOnLeap>` | false | On leaping up to a chara, whether the height of VRCamera matches with chara's. | Standing
 `<CursorMoveMultiplier>` | 1 | To change cursor moving speed multiplier (especially influencing the speed of object moving by MoveController). | Seated / Standing
 `<ChangeAllDefaultGUITexture>` | true | This is whether changing normal transparent GUIs into opaque GUIs because of being difficult to see normal transparent GUI on VR environment. [true = opaque, false = transparent(game normal)] | Seated / Standing
+`<EnableHiddenAreaMask>` | false | ***<ins>This is whether enabling HMD's hiddenAreaMask or not. On = FPS up and Field of View (FOV) narrower, Off = FPS down and FOV broader. In wireless environment, Off would be hoped. In wired environment, On would be hoped. [default = false(Off)]</ins>*** | Seated / Standing
 `<GrabRotationImmediateMode>` | true | Determines the rotation mode. If enabled, pulling the trigger while grabbing will immediately rotate you. When disabled, doing the same thing will let you 'drag' the view. [deprecated] | Standing
 `<RotationMultiplier>` | 2.5 | How quickly the view should rotate when doing so with the controllers. [deprecated] | Standing
 `<ApplyShaders>` | true | Sets whether or not post-processing shaders should automatically be applied to the camera. If you want high FPS not Post-Processing Effects, set false. | Seated / Standing
