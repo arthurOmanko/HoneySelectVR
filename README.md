@@ -52,7 +52,7 @@ Thanks very much, these autors!
 - **Please try to turn off Motion Smoothing in SteamVR settings when fuzzy or shaking UI problem or animation problem happens.**
 - ***<ins>Passthrough for Quest3 can be used on this VRmod. BackGroundColor changeable and some bugs on Quest3 fixed.</ins>***
 - ***<ins>When you are using ultrawide monitor, multiple display/screen, resolution problem might happen (moving of cursor and laser does not match or disappears, partial screen is not displayed etc.). Then please change game mode from full screen to window or remove other created multiscreens.</ins>*** 
-- ***<ins>ShortcutPlugin.dll sometimes causes some problem. So you might should remove it if any problem keeping.</ins>***
+- ***<ins>ShortcutPlugin.dll or ShortcutHSparty.dll sometimes causes some problem. So you might should remove it if any problem keeping.</ins>***
 - If you using other VR tools as of now except for this github, your game might work unproperly or get low quality. Then reconsider removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
