@@ -53,7 +53,7 @@ Thanks very much, these autors!
 - ***<ins>Passthrough for Quest3 can be used on this VRmod. BackGroundColor changeable and some bugs on Quest3 fixed.</ins>***
 - ***<ins>When you are using ultrawide monitor, multiple display/screen, resolution problem might happen (moving of cursor and laser does not match or disappears, partial screen is not displayed etc.). Then please change game mode from full screen to window or remove other created multiscreens.</ins>*** 
 - ***<ins>${GameFolder}/Plugins/ShortcutPlugin.dll or ShortcutHSparty.dll sometimes causes some problem. So you might should deactivate or remove it if any problem keeping.</ins>***
-- ***<ins>${GameFolder}/Plugins/HSSuimono.dll should be deactivated or removed due to heavy loading on VR if you have already installed and do not need it especially.</ins>***
+- ***<ins>${GameFolder}/Plugins/HSSuimono.dll should be deactivated due to heavy loading on VR if you have already installed, do not need it especially and possible.</ins>***
 - If you using other VR tools as of now except for this github, your game might work unproperly or get low quality. Then reconsider deactivating or removing other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to deactivate or remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
@@ -193,6 +193,7 @@ Tag      |  Move   |
 only one hand needed
 <kbd>trackpad</kbd>+<kbd>move</kbd> | move mouse cursor (when laser invisible)
 <kbd>trackpad</kbd>+<kbd>push</kbd> | click mouse cursor
+<kbd>trackpad</kbd>+<kbd>push</kbd> | select multiple objects on GUI
 <kbd>trigger</kbd> | click mouse cursor
 <kbd>menu</kbd> | display menu
 <kbd>grip</kbd> | put GUI or grab put GUI
