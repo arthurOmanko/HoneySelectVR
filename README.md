@@ -256,6 +256,10 @@ only one hand needed
 <kbd>menu</kbd> | display each fuction
 
 ## ***<ins>Voice Commands</ins>***
+- ***<ins>Voice Panel GUI/Voice Panel</ins>***  
+![Image](https://github.com/user-attachments/assets/65dc7b7e-834d-491a-a22f-d87f2d0d97ca)  
+![Image](https://github.com/user-attachments/assets/be28cd34-2f31-4717-ad84-3b16ca56fbd4)
+
 ***<ins>Newly Voice Commands function has been added. By real voices, you can manipulate various things.   
 Please refer to [HSVoiceCommandVR](https://github.com/arthurOmanko/HSVoiceCommandVR) Github Wiki site.</ins>***
 
