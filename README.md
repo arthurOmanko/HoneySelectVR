@@ -256,7 +256,7 @@ only one hand needed
 
 ## ***<ins>Voice Commands</ins>***
 ***<ins>Newly Voice Commands function has been added. By real voices, you can manipulate various things.   
-Please refer to https://github.com/arthurOmanko/HSVoiceCommandVR</ins>***
+Please refer to [HSVoiceCommandVR](https://github.com/arthurOmanko/HSVoiceCommandVR) Github Wiki site.</ins>***
 
 ## VR Settings & Tweaks
 
@@ -273,10 +273,10 @@ Tag      | Default | Effect | Mode
 `<IPDScale>` | 1.0 | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
 `<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality, Range:[0..2 or more if possible]. | Seated / Standing
 `<MirrorScreen>` | false | Sets whether or not the view should be mirrored on User's PC monitor. When this true and on StudioNeo, all ok. When this true and on mainGame/CharaMake, at first, change Seated/Standing mode to activate by keyboard shortcut [default: Ctrl-C, Ctrl-C], otherwise FPS would decrease drastically (researching the reason currently...). | Seated / Standing
-`<SpeechRecognition>` | ***<ins>true</ins>*** | Whether or not speech recognition is enabled. Refer to the manual for details. | Seated / Standing
-`<Locale>` | en-US | Locale to use for speech recognition. Make sure that you have installed the corresponding language pack. A dictionary file will automatically be generated at `UserData/dictionaries`. | Seated / Standing
+`<SpeechRecognition>` | ***<ins>true</ins>*** | Whether or not speech recognition is enabled. Refer to ***<ins>[HSVoiceCommandVR](https://github.com/arthurOmanko/HSVoiceCommandVR) Github Wiki site</ins>*** for details. | Seated / Standing
+`<Locale>` | en-US | Locale to use for speech recognition. Make sure that you have installed the corresponding language pack. A dictionary file will automatically be generated at `${GameFolder}/UserData/dictionaries`. | Seated / Standing
 `<Rumble>` | true | Sets whether or not rumble is activated. | Seated / Standing
-`<Leap>` | ***<ins>false</ins>*** | Whether or not Leap Motion support is activated. | Standing 
+`<Leap>` | ***<ins>false</ins>*** | Whether or not Leap Motion ***<ins>device</ins>*** support is activated. | Standing 
 `<DefaultDistanceOfLeap>` | 0.5 | Default distance up to chara on leaping. [meter] | Standing
 `<HeightCoincidenceOnLeap>` | false | On leaping up to a chara, whether the height of VRCamera matches with chara's. | Standing
 `<CursorMoveMultiplier>` | 1 | To change cursor moving speed multiplier (especially influencing the speed of object moving by MoveController). | Seated / Standing
