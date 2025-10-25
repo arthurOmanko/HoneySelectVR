@@ -26,7 +26,8 @@ Thanks very much, these autors!
 
 ## [Installation]
 1. Extract the zip file into User's HoneySelect directory.
-2. Run (HoneySelect|StudioNEO)_(64|32)_for_VR_with_IBL
+2. Run (HoneySelect|StudioNEO)_(64|32)_for_VR_with_IBL  
+   ***<ins>Or if you want to use .exe file itself not shortcut for .exe file, instead run Optional(HoneySelect|StudioNEO)64.exe</ins>***
 3. Enjoy super high quality on VR!
 
 **Caution!** 
@@ -79,6 +80,9 @@ Ones to remove are as below,
 - HSLREforVR.dll
 - HSIBLforVR.dll
 - ToolBoxforVR.dll
+- ***<ins>ExternallyInputVRGIN.dll</ins>***
+- ***<ins>ExternallyComplementaryVRGIN.dll</ins>***
+- ***<ins>HSVoiceCommandVR.dll</ins>***
 - VRKoumeiTool.dll (if existing)
 - VRKoumeiTool directory (if existing)
 - VRNeoIKFKTool.dll (if existing)
@@ -93,7 +97,9 @@ After it, if you want previous VR environment, for example, from VRmod by Eusth,
 - IBL:      
   -- ${GameFolder}\Plugins\HSIBL\Presets_for_VR   --- IBL Preset for VR  
   -- ${GameFolder}\abdata\plastic\cubemaps   --- IBL cubemaps (common with normal IBL if there is)  
-  -- ${GameFolder}\UserData\modprefs.ini   --- IBL setting on [HSIBLforVR] item. For initial GUI size etc.
+  -- ${GameFolder}\UserData\modprefs.ini   --- IBL setting on [HSIBLforVR] item. For initial GUI size etc.  
+  -- ***<ins>${GameFolder}\UserData\LUT\colorGradingFilesForVR\\\*.png  --- Lookup Tables for IBL Color Grading setting</ins>***  
+  -- ***<ins>${GameFolder}\UserData\curve\curveFilesForVR\\\*.dds  --- curve files for IBL Color Correction Curve</ins>***  
 - LRE:      
   -- ${GameFolder}\UserData\GraphicSetting\Config_for_VR.xml   --- LRE setting for VR. Shadow or imageEffect settings etc. Dir:[Common, Shadow, ImageEffect, Style, AntiAliasing].
 
@@ -116,13 +122,13 @@ Keys &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp
 :------------:  | ------
 <kbd>F5</kbd> | GUI of IBL on/off. [default shortcut. If want to change, please change the shortcut parameter on [HSIBLforVR] item in ${GameFolder}\UserData\modprefs.ini.]
 <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>C</kbd> | Change to Standing/Seated mode.
-<kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | Enable (very experimental) third person camera. [Was used for this video](https://www.youtube.com/watch?v=0klN6gd1ybM). If get on, this makes a Camera Box at (0, 0, 0) which User can grab and put where User hope. The display of the camera gets displayed on User's PC monitor. Very interesting!
+<kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> | ***<ins>Enable (very experimental) third person camera. <br> If all items of objectlist are not selected at all and this turns on, this makes a Camera Box about at right hand. Or if any item of objectlist is selected and this turns on, this makes a Camera Box at position of the item as child of it. <br> User can grab and put where User hope. The display of the camera gets displayed on User's PC monitor. (Caution!: Many ImageEffects of VRCamera are copied for this new Camera Box but some not copied (Global Ilumination effects such as SEGI of IBL, SSGIRenderer of HSSSS) so not completely same as VRCamara display. This will be improved in near future.)</ins>***
 <kbd>Alt</kbd>+<kbd>S</kbd> | Save settings (IPD, screen position, etc.). Write the last saved state on ${GameFolder}\vr_settings_for_IBL.xml.
 <kbd>Alt</kbd>+<kbd>L</kbd> | Load settings (from last saved state or ${GameFolder}\vr_settings_for_IBL.xml).
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> | Reset settings to the initial state (all default values of ${GameFolder}\vr_settings_for_IBL.xml).
 <kbd>Ctrl</kbd>+<kbd>F5</kbd> | Apply shaders (Post-processing Effects get applied (such as SSAO, ToneMapping, Color Grading etc.))
 <kbd>Alt</kbd>+<kbd>NumPad +</kbd> <br /> <kbd>Alt</kbd>+<kbd>NumPad –</kbd> | Increase / decrease player scale (IPDScale)
-<kbd>Ctrl</kbd>+<kbd>F12</kbd> | 360 Panorama Capture on VR. (=> ${GameFolder}\UserData\cap)
+<kbd>Ctrl</kbd>+<kbd>F12</kbd> | 360 Panorama Capture on VR (=> ${GameFolder}\UserData\cap). <br> ***<ins>(Caution!: Using HSSSS.dll, some bugs are happening so then getting weird. this will be improved in near future.)</ins>*** 
 <kbd>Ctrl</kbd>+<kbd>Q</kbd> | Toggle fixing of Field of View for Camera (on IBL lens item). If want full functions of lens on IBL, unfix by toggle. 
 <kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>C</kbd> | Most GUI Default textures get changed from transparent into opaque to improve UI/UX usability. Do this when IBL GUI on.
 <kbd>Shift</kbd>+<kbd>UpArrow</kbd> <br /> <kbd>Shift</kbd>+<kbd>DownArrow</kbd> | Increse / decrease the GUI resolution.
@@ -193,7 +199,7 @@ Tag      |  Move   |
 only one hand needed
 <kbd>trackpad</kbd>+<kbd>move</kbd> | move mouse cursor (when laser invisible)
 <kbd>trackpad</kbd>+<kbd>push</kbd> | click mouse cursor
-<kbd>trackpad</kbd>+<kbd>push</kbd> | select multiple objects on GUI
+<kbd>trackpad</kbd>+<kbd>slide along y-axis</kbd> | ***<ins>move vertical scroll bar on any GUI window (when laser visible)</ins>***
 <kbd>trigger</kbd> | click mouse cursor
 <kbd>menu</kbd> | display menu
 <kbd>grip</kbd> | put GUI or grab put GUI
@@ -248,6 +254,10 @@ only one hand needed
 <kbd>trackpad</kbd>+<kbd>slide along y-axis</kbd> | Change piston speed, Go In/Out, etc.
 <kbd>menu</kbd> | display each fuction
 
+## ***<ins>Voice Commands</ins>***
+***<ins>Newly Voice Commands function has been added. By real voices, you can manipulate various things.   
+Please refer to https://github.com/arthurOmanko/HSVoiceCommandVR</ins>***
+
 ## VR Settings & Tweaks
 
 Settings can be changed in the file *vr_settings_for_IBL.xml*, which is generated the first time you start the game. Use `RenderScale` to tweak the resolution, **not** the internal game resolution dialog, as that one will currently only change the resolution of the GUI.
@@ -260,18 +270,20 @@ Tag      | Default | Effect | Mode
 `<Rotation>` | 0 | On default, degrees of the GUI get rotated around the horizontal axis (y-axis), Range:[0..360]. | Seated
 `<PitchLock>` | false | Whether or not rotating only around the horizontal axis (y-axis) is allowed (all axes rotation ok = false). | Seated
 `<Projection>` | Flat | The curviness of the monitor in seated mode. Select (Flat, Curved, Spherical). | Seated
-`<IPDScale>` | ***<ins>1.0</ins>*** | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
+`<IPDScale>` | 1.0 | Sets the scale of the camera. The higher, the more gigantic the player is. | Seated / Standing
 `<RenderScale>` | 1 | Sets the render scale of the renderer. Increase for better quality but less performance, decrease for more performance but poor quality, Range:[0..2 or more if possible]. | Seated / Standing
 `<MirrorScreen>` | false | Sets whether or not the view should be mirrored on User's PC monitor. When this true and on StudioNeo, all ok. When this true and on mainGame/CharaMake, at first, change Seated/Standing mode to activate by keyboard shortcut [default: Ctrl-C, Ctrl-C], otherwise FPS would decrease drastically (researching the reason currently...). | Seated / Standing
-`<SpeechRecognition>` | false | Whether or not speech recognition is enabled. Refer to the manual for details. | Seated / Standing
+`<SpeechRecognition>` | ***<ins>true</ins>*** | Whether or not speech recognition is enabled. Refer to the manual for details. | Seated / Standing
 `<Locale>` | en-US | Locale to use for speech recognition. Make sure that you have installed the corresponding language pack. A dictionary file will automatically be generated at `UserData/dictionaries`. | Seated / Standing
 `<Rumble>` | true | Sets whether or not rumble is activated. | Seated / Standing
-`<Leap>` | true | Whether or not Leap Motion support is activated. | Standing 
+`<Leap>` | ***<ins>false</ins>*** | Whether or not Leap Motion support is activated. | Standing 
 `<DefaultDistanceOfLeap>` | 0.5 | Default distance up to chara on leaping. [meter] | Standing
 `<HeightCoincidenceOnLeap>` | false | On leaping up to a chara, whether the height of VRCamera matches with chara's. | Standing
 `<CursorMoveMultiplier>` | 1 | To change cursor moving speed multiplier (especially influencing the speed of object moving by MoveController). | Seated / Standing
 `<ChangeAllDefaultGUITexture>` | true | This is whether changing normal transparent GUIs into opaque GUIs because of being difficult to see normal transparent GUI on VR environment. [true = opaque, false = transparent(game normal)] | Seated / Standing
 `<EnableHiddenAreaMask>` | false | This is whether enabling HMD's hiddenAreaMask or not. On = FPS up and Field of View (FOV) narrower, Off = FPS down and FOV broader. In wireless environment, Off would be hoped. In wired environment, On would be hoped. [default = false(Off)] | Seated / Standing
+`<ChangedHandModel>` | ***<ins>Controller</ins>*** | ***<ins>Whether or not changing controller models from Controller to Hand or Nothing. Select (Controller, Hand, Nothing).</ins>*** | Seated / Standing
+`<FieldOfViewOfThirdPartyCamera>` | ***<ins>60</ins>*** | ***<ins>Setting field of view value of third person camera (created by default shortcut keys (Ctrl-C, Ctrl-V)).</ins>*** | Seated / Standing
 `<GrabRotationImmediateMode>` | true | Determines the rotation mode. If enabled, pulling the trigger while grabbing will immediately rotate you. When disabled, doing the same thing will let you 'drag' the view. [deprecated] | Standing
 `<RotationMultiplier>` | 2.5 | How quickly the view should rotate when doing so with the controllers. [deprecated] | Standing
 `<ApplyShaders>` | true | Sets whether or not post-processing shaders should automatically be applied to the camera. If you want high FPS not Post-Processing Effects, set false. | Seated / Standing
