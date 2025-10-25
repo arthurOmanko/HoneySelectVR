@@ -50,10 +50,10 @@ Thanks very much, these autors!
 - Camera data saving on StudioNEO has been enabled for 1-10 on VR. 11 or more camera data savign not working on VR currently.
 - When there is any problem of UI buttons disappearing, please try to change UI resolution in InitSetting.exe.
 - **Please try to turn off Motion Smoothing in SteamVR settings when fuzzy or shaking UI problem or animation problem happens.**
-- ***<ins>Passthrough for Quest3 can be used on this VRmod. BackGroundColor changeable and some bugs on Quest3 fixed.</ins>***
-- ***<ins>When you are using ultrawide monitor, multiple display/screen, resolution problem might happen (moving of cursor and laser does not match or disappears, partial screen is not displayed etc.). Then please change game mode from full screen to window, remove other created multiscreens or change game (or display) resolution setting. (for example, both the game and display resolution get same etc.)</ins>*** 
-- ***<ins>${GameFolder}/Plugins/ShortcutPlugin.dll or ShortcutHSparty.dll sometimes causes some problem. So you might have to deactivate (by HSResolveMoreSlotID Tool) or remove it if any problem keeping.</ins>***
-- ***<ins>${GameFolder}/Plugins/HSSuimono.dll should be deactivated (by HSResolveMoreSlotID Tool) due to heavy loading on VR if you have already installed, do not need it especially and possible.</ins>***
+- Passthrough for Quest3 can be used on this VRmod. BackGroundColor changeable and some bugs on Quest3 fixed.
+- When you are using ultrawide monitor, multiple display/screen, resolution problem might happen (moving of cursor and laser does not match or disappears, partial screen is not displayed etc.). Then please change game mode from full screen to window, remove other created multiscreens or change game (or display) resolution setting. (for example, both the game and display resolution get same etc.) 
+- ${GameFolder}/Plugins/ShortcutPlugin.dll or ShortcutHSparty.dll sometimes causes some problem. So you might have to deactivate (by HSResolveMoreSlotID Tool) or remove it if any problem keeping.
+- ${GameFolder}/Plugins/HSSuimono.dll should be deactivated (by HSResolveMoreSlotID Tool) due to heavy loading on VR if you have already installed, do not need it especially and possible.
 - If you using other VR tools as of now except for this github, your game might work unproperly or get low quality. Then reconsider deactivating (can by HSResolveMoreSlotID Tool but not tested by me) or removing (recommended and tested by me) other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to deactivate or remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
@@ -271,7 +271,7 @@ Tag      | Default | Effect | Mode
 `<HeightCoincidenceOnLeap>` | false | On leaping up to a chara, whether the height of VRCamera matches with chara's. | Standing
 `<CursorMoveMultiplier>` | 1 | To change cursor moving speed multiplier (especially influencing the speed of object moving by MoveController). | Seated / Standing
 `<ChangeAllDefaultGUITexture>` | true | This is whether changing normal transparent GUIs into opaque GUIs because of being difficult to see normal transparent GUI on VR environment. [true = opaque, false = transparent(game normal)] | Seated / Standing
-`<EnableHiddenAreaMask>` | false | ***<ins>This is whether enabling HMD's hiddenAreaMask or not. On = FPS up and Field of View (FOV) narrower, Off = FPS down and FOV broader. In wireless environment, Off would be hoped. In wired environment, On would be hoped. [default = false(Off)]</ins>*** | Seated / Standing
+`<EnableHiddenAreaMask>` | false | This is whether enabling HMD's hiddenAreaMask or not. On = FPS up and Field of View (FOV) narrower, Off = FPS down and FOV broader. In wireless environment, Off would be hoped. In wired environment, On would be hoped. [default = false(Off)] | Seated / Standing
 `<GrabRotationImmediateMode>` | true | Determines the rotation mode. If enabled, pulling the trigger while grabbing will immediately rotate you. When disabled, doing the same thing will let you 'drag' the view. [deprecated] | Standing
 `<RotationMultiplier>` | 2.5 | How quickly the view should rotate when doing so with the controllers. [deprecated] | Standing
 `<ApplyShaders>` | true | Sets whether or not post-processing shaders should automatically be applied to the camera. If you want high FPS not Post-Processing Effects, set false. | Seated / Standing
