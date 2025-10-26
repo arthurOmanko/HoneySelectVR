@@ -244,6 +244,9 @@ both hands needed
 ### Play Tool (Standing / Seated)
 ![play_tool](https://user-images.githubusercontent.com/68005887/89115805-5ce03780-d4c7-11ea-811d-c2b4ceb54b09.png)  
 The play tool is used to interact with the scene.  
+***<ins>If VRKoumeiTool installed, pleasure values of woman can be increased by grabbing her breast or hip.  
+Please refer to [VRKoumeiTool](https://github.com/arthurOmanko/VRKoumeiTool) settings.</ins>***
+
 #### UI/UX abstract on PlayTool
 Tag      |  Move   | 
 ----     | ------  | 
