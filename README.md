@@ -57,7 +57,7 @@ Thanks very much, these autors!
 - ${GameFolder}/Plugins/HSSuimono.dll should be deactivated (by HSResolveMoreSlotID Tool) due to heavy loading on VR if you have already installed, do not need it especially and possible.
 - ***<ins>If you have Adobe Photoshop, you can create your own new Lookup Table of IBL Color Grading or Curve file of IBL Color Correction Curve. Please refer to ${GameFolder}\UserData\LUT\colorGradingFilesForVR\Adobe_files_for_creating\ or ${GameFolder}\UserData\curve\curveFilesForVR\Adobe_files_for_creating\ </ins>***
 - ***<ins>When loading/saving/deleting preset on IBL in VR, popUp has got shown. Please select OK or Cancel finally.  
-Or after loading a preset of IBL, it is advisable to click Lighting/Lens/Perception tabs once in order to reflect all settings of the preset in many cases.</ins>***
+Or after loading a preset of IBL or a scene, it is advisable to click Lighting/Lens/Perception tabs once in order to reflect all settings of the preset in many cases.</ins>***
 - If you using other VR tools as of now except for this github, your game might work unproperly or get low quality. Then reconsider deactivating (can by HSResolveMoreSlotID Tool but not tested by me) or removing (recommended and tested by me) other VR tools (${GameFolder}/Plugins/**.dll files etc.). For example, might have to deactivate or remove *.dll as below,  
      + VRGIN_NEO.dll  
      + StudioNEOVR.dll  
