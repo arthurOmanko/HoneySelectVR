@@ -54,7 +54,7 @@ Thanks very much, these autors!
 - Passthrough for Quest3 can be used on this VRmod. BackGroundColor changeable and some bugs on Quest3 fixed.
 - When you are using ultrawide monitor, multiple display/screen, resolution problem might happen (moving of cursor and laser does not match or disappears, partial screen is not displayed etc.). Then please change game mode from full screen to window, remove other created multiscreens or change game (or display) resolution setting. (for example, both the game and display resolution get same etc.) 
 - ${GameFolder}/Plugins/ShortcutPlugin.dll or ShortcutHSparty.dll sometimes causes some problem. So you might have to deactivate (by HSResolveMoreSlotID Tool) or remove it if any problem keeping.
-- ${GameFolder}/Plugins/HSSuimono.dll should be deactivated (by HSResolveMoreSlotID Tool) due to heavy loading on VR if you have already installed, do not need it especially and possible.
+- ${GameFolder}/Plugins/HSSuimono.dll should be deactivated (by HSResolveMoreSlotID Tool) due to heavy loading on VR if you have already installed and do not need it especially and it is possible.
 - ***<ins>If you have Adobe Photoshop, you can create your own new Lookup Table of IBL Color Grading or Curve file of IBL Color Correction Curve. Please refer to ${GameFolder}\UserData\LUT\colorGradingFilesForVR\Adobe_files_for_creating\ or ${GameFolder}\UserData\curve\curveFilesForVR\Adobe_files_for_creating\ </ins>***
 - ***<ins>When loading/saving/deleting preset on IBL in VR, popUp has got shown. Please select OK or Cancel finally.  
 Or after loading a preset of IBL or a scene, it is advisable to click Lighting/Lens/Perception tabs of IBL once in order to reflect all settings of the preset in many cases.</ins>***
